@@ -3,12 +3,22 @@
 }
 
 body {
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-image: url("bg.png");
+  background-size: 10000px;
 }
 
 header {
   text-align: center;
   font-size: 5vw;
+}
+
+.menuButton {
+  float: left;
+}
+
+.nextButton {
+  float: right;
 }
 
 .imageClass > img{
