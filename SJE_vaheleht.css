@@ -16,23 +16,22 @@ body{
     background-size: fill;
     background-position: center; 
 }
-.banner{
-    
-    width: 100%;
-    height: 100%;
-
+section {
+   position: relative;
 }
-.navbar{
-    width: 90%;
-    margin: auto;
+
+nav {
     height: 8%;
-    padding: 35px 0;
-    position: sticky;
+}
+
+.navbar{
+    width: 100%;
+    padding: 30px;
+    position: fixed;
     align-items: center;
-    top: 0px;
-    margin:auto;
-    min-width: 100%;
-    background-color: #000000
+    margin: auto;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1;
 }
 
 
@@ -72,15 +71,11 @@ body{
 
 .sisu{
     width: 100%; 
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
     text-align: center;
     color: #fff;
 }
 .sisu h1{
     font-size: 50px;
-    margin-top: 80px;
 }
 .sisu p{
     margin: 20px auto;
