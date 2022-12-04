@@ -11,14 +11,14 @@ body {
 }
 /* emoji pmst kontrollib teksti hetkel tekst pole keskel ning see animation-name annab sellele tekstile animatsiooni */
 #emoji {
-    position: absolute;
+    position: relative;
     margin: auto;
-    
+    top : 45%;
     z-index: 1;
     color: white;
     font-size: 4em;
-    animation-name: side-to-side-rotate;
-    animation-duration: 3s;
+    animation-name: rotate;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     
@@ -34,30 +34,22 @@ div {
         transform: rotate(360deg);
     }
 }
-/* see lihtsalt paneb teksti liikuma vasakule paremale(hetkel seda ei kasuta see on niisama siin) */
-@keyframes side-to-side-rotate {
-    0% {
-        transform: translateX(-100px);
-    }
-    50% {
-        transform: translateX(100px)
-rotate(360deg)
-    }
-
+/* see paneb teksti pöörlema */
+@keyframes rotate2 {
     100% {
-        transform: translateX(-100px)
-rotate(-360deg);
+        transform: rotate(-360deg);
     }
 }
 
 #emoji2 {
-    position: absolute;
+    position: relative;
+    top: 40%;
     margin: auto;
     z-index: 1;
     color: white;
     font-size: 4em;
-    animation-name: rotate;
-    animation-duration: 3s;
+    animation-name: rotate2;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -69,14 +61,14 @@ rotate(-360deg);
     left: 0;
     top: 0;
     height: 100%;
-    width: 50%;
+    width: 40%;
     background-color: black; 
     border: 2px solid black;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    
     font-size: 16px;
     border-radius: 0;
     transition-duration: 0.4s;
@@ -84,8 +76,7 @@ rotate(-360deg);
 }
 
 #vasak:hover {
-    background-color: red;
-    color: #4CAF50;
+    background-color: #FC766AFF;
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -95,14 +86,14 @@ rotate(-360deg);
     right: 0;
     top: 0;
     height: 100%;
-    width: 50%;
+    width: 43%;
     background-color: black; 
     border: 2px solid black;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    
     font-size: 16px;
     border-radius: 0;
     transition-duration: 0.4s;
@@ -110,7 +101,6 @@ rotate(-360deg);
 }
 
 #parem:hover {
-    background-color: grey;
-    color: #4CAF50;
+    background-color: #5B84B1FF;
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
