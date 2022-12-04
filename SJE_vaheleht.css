@@ -9,13 +9,24 @@ html{
     height: 100%;
     overflow: auto;
 }
-body{
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://images.unsplash.com/photo-1572441713132-c542fc4fe282?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80);
+
+body {
     height: 100%;
     overflow: auto;
     background-size: fill;
-    background-position: center; 
+    background-position: center;  
 }
+
+.tortilla {
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://th.bing.com/th/id/R.9395c37355cde9ebb47d8a7807e33917?rik=viymrzyE3aG4aQ&riu=http%3a%2f%2fprod.static9.net.au%2f_%2fmedia%2fNetwork%2fImages%2fSandwich-wraps-160455.jpg&ehk=r%2bWy%2blppCMtOfB%2b6GqZg8gsco1anWGUGtWO5NQjX9Xk%3d&risl=&pid=ImgRaw&r=0);
+    background-size: 1920px 1080px;
+}
+
+.pasta {
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://images.unsplash.com/photo-1572441713132-c542fc4fe282?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80);
+    background-size: 1920px 1080px;
+}
+
 section {
    position: relative;
 }
@@ -30,7 +41,7 @@ nav {
     position: fixed;
     align-items: center;
     margin: auto;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.85);
     z-index: 1;
 }
 

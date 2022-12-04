@@ -23,6 +23,11 @@ body {
     animation-timing-function: linear;
     
 }
+
+div {
+    align-items: center;
+}
+
 /* see paneb teksti pöörlema */
 @keyframes rotate {
     100% {
