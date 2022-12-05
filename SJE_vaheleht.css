@@ -10,10 +10,15 @@ html{
     overflow: auto;
 }
 
+iframe {
+    display: block;
+    margin: 0 auto;
+  }
+
 body {
     height: 100%;
     overflow: auto;
-    background-size: fill;
+    background-size: auto;
     background-position: center;  
 }
 
@@ -105,7 +110,6 @@ nav {
     font-weight: bold;
     background: transparent;
     color: #fff;
-    cursor: pointer;
     position: relative;
     overflow: hidden;
 }
