@@ -16,7 +16,7 @@ body {
     top : 45%;
     z-index: 1;
     color: white;
-    font-size: 4em;
+    font-size: 5vw;
     animation-name: rotate;
     animation-duration: 5s;
     animation-iteration-count: infinite;
@@ -47,25 +47,25 @@ div {
     margin: auto;
     z-index: 1;
     color: white;
-    font-size: 4em;
+    font-size: 5vw;
     animation-name: rotate2;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 
-
 #vasak {
     position: fixed;
+    user-select: none;
     z-index: 0;
     left: 0;
+    cursor: pointer;
     top: 0;
     height: 100%;
-    width: 40%;
+    width: 50%;
     background-color: black; 
     border: 2px solid black;
     color: white;
-    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     
@@ -83,14 +83,15 @@ div {
 #parem {
     position: fixed;
     z-index: 0;
+    user-select: none;
     right: 0;
+    cursor: pointer;
     top: 0;
     height: 100%;
-    width: 43%;
+    width: 50%;
     background-color: black; 
     border: 2px solid black;
     color: white;
-    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     
